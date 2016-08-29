@@ -1,0 +1,15 @@
+[submodule "pragmatickm-task-model"]
+	path = pragmatickm-task-model
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-model
+[submodule "pragmatickm-task-servlet"]
+	path = pragmatickm-task-servlet
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-servlet
+[submodule "pragmatickm-task-style"]
+	path = pragmatickm-task-style
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-style
+[submodule "pragmatickm-task-taglib"]
+	path = pragmatickm-task-taglib
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-taglib
+[submodule "pragmatickm-task-view"]
+	path = pragmatickm-task-view
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-view
