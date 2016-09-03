@@ -13,3 +13,6 @@
 [submodule "pragmatickm-task-view"]
 	path = pragmatickm-task-view
 	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-view
+[submodule "pragmatickm-task-all"]
+	path = pragmatickm-task-all
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-all
