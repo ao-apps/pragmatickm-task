@@ -25,7 +25,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<parent>
 		<groupId>com.pragmatickm</groupId>
 		<artifactId>pragmatickm</artifactId>
-		<version>1.5</version>
+		<version>1.6-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
@@ -34,7 +34,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM Task</name>
-	<url>https://pragmatickm.com/docs/pragmatickm-task/</url>
+	<url>https://pragmatickm.com/task/</url>
 	<description>Parent POM for tasks nested within SemanticCMS pages and elements.</description>
 
 	<scm>
