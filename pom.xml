@@ -30,7 +30,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 	<groupId>com.pragmatickm</groupId>
 	<artifactId>pragmatickm-task</artifactId>
-	<version>1.4-SNAPSHOT</version>
+	<version>1.4.0</version>
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM Task</name>
@@ -46,7 +46,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 		<!--
 		<url>http://github.com/aoindustries/pragmatickm-task</url>
 		-->
-		<tag>HEAD</tag>
+		<tag>pragmatickm-task-1.4.0</tag>
 	</scm>
 
 	<repositories>
