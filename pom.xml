@@ -25,7 +25,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<parent>
 		<groupId>com.pragmatickm</groupId>
 		<artifactId>pragmatickm</artifactId>
-		<version>1.6-SNAPSHOT</version>
+		<version>1.6.1</version>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
