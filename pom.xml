@@ -25,7 +25,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<parent>
 		<groupId>com.pragmatickm</groupId>
 		<artifactId>pragmatickm</artifactId>
-		<version>1.6.2</version>
+		<version>1.6.3-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
@@ -44,7 +44,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 		-->
 		<developerConnection>scm:git:ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task</developerConnection>
 		<!--
-		<url>http://github.com/aoindustries/pragmatickm-task</url>
+		<url>https://github.com/aoindustries/pragmatickm-task</url>
 		-->
 		<tag>HEAD</tag>
 	</scm>
