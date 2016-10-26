@@ -33,23 +33,29 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<version>1.4.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<bookPath>/task</bookPath>
+		<shortTitle>Task</shortTitle>
+		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="${project.parent.parent.url}">${project.parent.parent.name}</a>
+/ <a target="_top" href="${project.parent.url}">Task</a>
+/ <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
+	</properties>
+
 	<name>PragmaticKM Task</name>
-	<url>https://pragmatickm.com/task/</url>
+	<url>https://pragmatickm.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
 	<description>Parent POM for tasks nested within SemanticCMS pages and elements.</description>
 	<inceptionYear>2016</inceptionYear>
 
 	<scm>
-		<!--
-		<connection>scm:git:git://github.com/aoindustries/pragmatickm-task.git</connection>
-		-->
-		<developerConnection>scm:git:ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task</developerConnection>
-		<!--
-		<url>https://github.com/aoindustries/pragmatickm-task</url>
-		-->
+		<!-- Can't inherit due to multi-module -->
+		<!--<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>-->
+		<developerConnection>scm:git:ssh://private.cvs.aoindustries.com/var/git/${project.artifactId}</developerConnection>
+		<!--<url>https://github.com/aoindustries/${project.artifactId}</url>-->
 		<tag>HEAD</tag>
 	</scm>
 
 	<repositories>
+		<!-- Repository required here, too, so can find parent -->
 		<repository>
 			<id>pragmatickm-repository</id>
 			<url>scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm</url>
