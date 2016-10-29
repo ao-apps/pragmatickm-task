@@ -3,6 +3,7 @@ Parent POM for tasks nested within [SemanticCMS](https://semanticcms.com/) pages
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/task/)
+* [Changelog](https://pragmatickm.com/task/changelog)
 * [Maven Repository](scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm)
 * [Git](ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task)
 
