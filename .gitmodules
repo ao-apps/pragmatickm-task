@@ -16,3 +16,21 @@
 [submodule "pragmatickm-task-all"]
 	path = pragmatickm-task-all
 	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-all
+[submodule "all"]
+	path = all
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-all
+[submodule "model"]
+	path = model
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-model
+[submodule "servlet"]
+	path = servlet
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-servlet
+[submodule "style"]
+	path = style
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-style
+[submodule "taglib"]
+	path = taglib
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-taglib
+[submodule "view"]
+	path = view
+	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-view
