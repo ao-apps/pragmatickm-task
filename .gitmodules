@@ -1,36 +1,18 @@
-[submodule "pragmatickm-task-model"]
-	path = pragmatickm-task-model
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-model
-[submodule "pragmatickm-task-servlet"]
-	path = pragmatickm-task-servlet
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-servlet
-[submodule "pragmatickm-task-style"]
-	path = pragmatickm-task-style
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-style
-[submodule "pragmatickm-task-taglib"]
-	path = pragmatickm-task-taglib
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-taglib
-[submodule "pragmatickm-task-view"]
-	path = pragmatickm-task-view
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-view
-[submodule "pragmatickm-task-all"]
-	path = pragmatickm-task-all
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-all
 [submodule "all"]
 	path = all
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-all
+	url = git@github.com:aoindustries/pragmatickm-task-all.git
 [submodule "model"]
 	path = model
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-model
+	url = git@github.com:aoindustries/pragmatickm-task-model.git
 [submodule "servlet"]
 	path = servlet
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-servlet
+	url = git@github.com:aoindustries/pragmatickm-task-servlet.git
 [submodule "style"]
 	path = style
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-style
+	url = git@github.com:aoindustries/pragmatickm-task-style.git
 [submodule "taglib"]
 	path = taglib
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-taglib
+	url = git@github.com:aoindustries/pragmatickm-task-taglib.git
 [submodule "view"]
 	path = view
-	url = ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task-view
+	url = git@github.com:aoindustries/pragmatickm-task-view.git
