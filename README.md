@@ -4,8 +4,8 @@ Aggregator POM for tasks nested within [SemanticCMS](https://semanticcms.com/) p
 ## Project Links
 * [Project Home](https://pragmatickm.com/task/)
 * [Changelog](https://pragmatickm.com/task/changelog)
-* [Maven Repository](scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm)
-* [Git](ssh://private.cvs.aoindustries.com/var/git/pragmatickm-task)
+* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.pragmatickm%22%20AND%20a:%22pragmatickm-task%22)
+* [GitHub](https://github.com/aoindustries/pragmatickm-task)
 
 ## Modules
 * [PragmaticKM Task All](https://pragmatickm.com/task/all/)
