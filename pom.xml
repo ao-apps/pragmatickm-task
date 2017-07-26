@@ -50,11 +50,18 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 	</scm>
 
 	<modules>
+		<module>book</module>
 		<module>all</module>
+		<module>all/book</module>
 		<module>model</module>
+		<module>model/book</module>
 		<module>servlet</module>
+		<module>servlet/book</module>
 		<module>style</module>
+		<module>style/book</module>
 		<module>taglib</module>
+		<module>taglib/book</module>
 		<module>view</module>
+		<module>view/book</module>
 	</modules>
 </project>
