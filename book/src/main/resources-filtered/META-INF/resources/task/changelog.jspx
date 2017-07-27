@@ -61,7 +61,6 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			datePublished="2017-07-27T01:34:46-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
-			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
