@@ -130,7 +130,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task</artifactId>
-			<version>1.4.4</version>
+			<version>1.4.5-SNAPSHOT</version>
 			<type>pom</type>
 			<scope>provided</scope>
 			<optional>true</optional>
