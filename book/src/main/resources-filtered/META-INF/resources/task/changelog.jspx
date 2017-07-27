@@ -37,7 +37,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T22:08:34-0500"
-		dateModified="2017-07-26T16:13:15-0500"
+		dateModified="2017-07-27T01:34:46-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-task:pom.version}" />
@@ -52,13 +52,23 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			>
-				<ul>
-					<li>License changed to LGPL v3.</li>
-					<li>Moving PragmaticKM to GitHub and Maven Central Repository.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.4.4"
+			datePublished="2017-07-27T01:34:46-0500"
+			groupId="@{documented.groupId}"
+			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
+			scmUrl="@{documented.scm.url}"
+		>
+			<ul>
+				<li>License changed to LGPL v3.</li>
+				<li>Moving PragmaticKM to GitHub and Maven Central Repository.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
