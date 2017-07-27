@@ -33,7 +33,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 
 	<groupId>com.pragmatickm</groupId>
 	<artifactId>pragmatickm-task</artifactId>
-	<version>1.4.4-SNAPSHOT</version>
+	<version>1.4.4</version>
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM Task</name>
@@ -46,7 +46,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
 		<url>https://github.com/aoindustries/${project.artifactId}</url>
-		<tag>HEAD</tag>
+		<tag>pragmatickm-task-1.4.4</tag>
 	</scm>
 
 	<modules>
