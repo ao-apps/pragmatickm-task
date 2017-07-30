@@ -27,13 +27,13 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 	<parent>
 		<groupId>com.pragmatickm</groupId>
 		<artifactId>pragmatickm-parent</artifactId>
-		<version>1.0.2</version>
+		<version>1.0.3-validation-SNAPSHOT</version>
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
 	<artifactId>pragmatickm-task-book</artifactId>
-	<version>1.4.5-SNAPSHOT</version>
+	<version>1.4.5-validation-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -104,33 +104,33 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-badges</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1-validation-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId>
 			<artifactId>ao-taglib</artifactId>
-			<version>2.3.1</version>
+			<version>2.3.2-validation-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-changelog-taglib</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.2-validation-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-core-taglib</artifactId>
-			<version>1.9.0</version>
+			<version>1.9.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-taglib</artifactId>
-			<version>1.4.3</version>
+			<version>1.4.4-validation-SNAPSHOT</version>
 		</dependency>
 		<!-- Dependency for dependencyversion-maven-plugin only -->
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task</artifactId>
-			<version>1.4.5-SNAPSHOT</version>
+			<version>1.4.5-validation-SNAPSHOT</version>
 			<type>pom</type>
 			<scope>provided</scope>
 			<optional>true</optional>

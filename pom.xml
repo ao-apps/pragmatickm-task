@@ -27,13 +27,13 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 	<parent>
 		<groupId>com.pragmatickm</groupId>
 		<artifactId>pragmatickm-parent</artifactId>
-		<version>1.0.2</version>
+		<version>1.0.3-validation-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
 	<artifactId>pragmatickm-task</artifactId>
-	<version>1.4.5-SNAPSHOT</version>
+	<version>1.4.5-validation-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM Task</name>
