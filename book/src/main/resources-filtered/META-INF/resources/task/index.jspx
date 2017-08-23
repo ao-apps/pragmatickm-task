@@ -35,13 +35,13 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		description="@{documented.description}"
 		datePublished="2017-07-25T22:08:34-0500"
 	>
-		<core:child page="changelog.jspx" />
-		<core:child book="/task/all" page="/index.jspx" />
-		<core:child book="/task/model" page="/index.jspx" />
-		<core:child book="/task/servlet" page="/index.jspx" />
-		<core:child book="/task/style" page="/index.jspx" />
-		<core:child book="/task/taglib" page="/index.jspx" />
-		<core:child book="/task/view" page="/index.jspx" />
+		<core:child page="changelog" />
+		<core:child book="/task/all" page="/" />
+		<core:child book="/task/model" page="/" />
+		<core:child book="/task/servlet" page="/" />
+		<core:child book="/task/style" page="/" />
+		<core:child book="/task/taglib" page="/" />
+		<core:child book="/task/view" page="/" />
 		<ao:include
 			page="/ao-badges/badges.inc.jspx"
 			arg.projectStatus="${currentPage.property.projectStatus}"
@@ -55,20 +55,20 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		</p>
 		<section:section label="Project Links">
 			<ul>
-				<li><core:link page="index.jspx">Project Home</core:link></li>
-				<li><core:link page="changelog.jspx">Changelog</core:link></li>
+				<li><core:link page="/">Project Home</core:link></li>
+				<li><core:link page="changelog">Changelog</core:link></li>
 				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:section>
 		<section:section label="Modules">
 			<ul>
-				<li><core:link book="/task/all" page="/index.jspx" /></li>
-				<li><core:link book="/task/model" page="/index.jspx" /></li>
-				<li><core:link book="/task/servlet" page="/index.jspx" /></li>
-				<li><core:link book="/task/style" page="/index.jspx" /></li>
-				<li><core:link book="/task/taglib" page="/index.jspx" /></li>
-				<li><core:link book="/task/view" page="/index.jspx" /></li>
+				<li><core:link book="/task/all" page="/" /></li>
+				<li><core:link book="/task/model" page="/" /></li>
+				<li><core:link book="/task/servlet" page="/" /></li>
+				<li><core:link book="/task/style" page="/" /></li>
+				<li><core:link book="/task/taglib" page="/" /></li>
+				<li><core:link book="/task/view" page="/" /></li>
 			</ul>
 		</section:section>
 	</core:page>
