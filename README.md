@@ -29,6 +29,7 @@ Aggregator POM for tasks nested within [SemanticCMS](https://semanticcms.com/) p
 ## Modules
 * [PragmaticKM Task All](https://pragmatickm.com/task/all/)
 * [PragmaticKM Task Model](https://pragmatickm.com/task/model/)
+* [PragmaticKM Task Renderer HTML](https://pragmatickm.com/task/renderer/html/)
 * [PragmaticKM Task Servlet](https://pragmatickm.com/task/servlet/)
 * [PragmaticKM Task Style](https://pragmatickm.com/task/style/)
 * [PragmaticKM Task Taglib](https://pragmatickm.com/task/taglib/)

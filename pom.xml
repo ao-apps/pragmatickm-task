@@ -55,6 +55,8 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<module>all/book</module>
 		<module>model</module>
 		<module>model/book</module>
+		<module>renderer-html</module>
+		<module>renderer-html/book</module>
 		<module>servlet</module>
 		<module>servlet/book</module>
 		<module>style</module>

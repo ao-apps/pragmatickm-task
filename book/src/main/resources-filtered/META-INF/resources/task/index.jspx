@@ -34,10 +34,12 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2017-07-25T22:08:34-0500"
+		dateModified="2017-08-26T01:49:41-0500"
 	>
 		<core:child page="changelog" />
 		<core:child book="/task/all" page="/" />
 		<core:child book="/task/model" page="/" />
+		<core:child book="/task/renderer/html" page="/" />
 		<core:child book="/task/servlet" page="/" />
 		<core:child book="/task/style" page="/" />
 		<core:child book="/task/taglib" page="/" />
@@ -65,6 +67,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			<ul>
 				<li><core:link book="/task/all" page="/" /></li>
 				<li><core:link book="/task/model" page="/" /></li>
+				<li><core:link book="/task/renderer/html" page="/" /></li>
 				<li><core:link book="/task/servlet" page="/" /></li>
 				<li><core:link book="/task/style" page="/" /></li>
 				<li><core:link book="/task/taglib" page="/" /></li>
