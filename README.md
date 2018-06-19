@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [PragmaticKM](https://pragmatickm.com/) / [Task](https://pragmatickm.com/task/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [PragmaticKM](https://github.com/aoindustries/pragmatickm) / [Task](https://github.com/aoindustries/pragmatickm-task)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://pragmatickm.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -18,7 +18,7 @@
 	</a>
 </p>
 
-Aggregator POM for tasks nested within [SemanticCMS](https://semanticcms.com/) pages and elements.
+Aggregator POM for tasks nested within [SemanticCMS](https://github.com/aoindustries/semanticcms) pages and elements.
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/task/)
@@ -27,13 +27,13 @@ Aggregator POM for tasks nested within [SemanticCMS](https://semanticcms.com/) p
 * [GitHub](https://github.com/aoindustries/pragmatickm-task)
 
 ## Modules
-* [PragmaticKM Task All](https://pragmatickm.com/task/all/)
-* [PragmaticKM Task Model](https://pragmatickm.com/task/model/)
-* [PragmaticKM Task Renderer HTML](https://pragmatickm.com/task/renderer/html/)
-* [PragmaticKM Task Servlet](https://pragmatickm.com/task/servlet/)
-* [PragmaticKM Task Style](https://pragmatickm.com/task/style/)
-* [PragmaticKM Task Taglib](https://pragmatickm.com/task/taglib/)
-* [PragmaticKM Task View](https://pragmatickm.com/task/view/)
+* [PragmaticKM Task All](https://github.com/aoindustries/pragmatickm-task-all)
+* [PragmaticKM Task Model](https://github.com/aoindustries/pragmatickm-task-model)
+* [PragmaticKM Task Renderer HTML](https://github.com/aoindustries/pragmatickm-task-renderer-html)
+* [PragmaticKM Task Servlet](https://github.com/aoindustries/pragmatickm-task-servlet)
+* [PragmaticKM Task Style](https://github.com/aoindustries/pragmatickm-task-style)
+* [PragmaticKM Task Taglib](https://github.com/aoindustries/pragmatickm-task-taglib)
+* [PragmaticKM Task View](https://github.com/aoindustries/pragmatickm-task-view)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
