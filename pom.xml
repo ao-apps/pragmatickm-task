@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-task - Aggregator POM for tasks nested within SemanticCMS pages and elements.
-Copyright (C) 2016, 2017  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -36,7 +36,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 	<version>1.4.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>PragmaticKM Task</name>
+	<name>PragmaticKM 1 Task</name>
 	<url>https://pragmatickm.com/task/</url>
 	<description>Aggregator POM for tasks nested within SemanticCMS pages and elements.</description>
 	<inceptionYear>2016</inceptionYear>
