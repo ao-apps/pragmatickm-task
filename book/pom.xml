@@ -25,11 +25,11 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+		<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId><version>1.2.0-SNAPSHOT</version>
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-book</artifactId><version>1.5.0-validation-SNAPSHOT</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-book</artifactId><version>1.5.1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -86,23 +86,23 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-badges</artifactId><version>1.1.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-badges</artifactId><version>1.1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.1.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><version>1.10.0-validation-SNAPSHOT</version>
+			<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><version>1.10.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-taglib</artifactId><version>1.5.0-SNAPSHOT</version>
 		</dependency>
 		<!-- Dependency for dependencyversion-maven-plugin only -->
 		<dependency>
-			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.5.0-validation-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.5.1-SNAPSHOT</version>
 			<type>pom</type>
 			<scope>provided</scope>
 			<optional>true</optional>
