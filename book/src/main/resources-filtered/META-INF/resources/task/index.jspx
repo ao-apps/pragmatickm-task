@@ -34,9 +34,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2017-07-25T22:08:34-0500"
-		dateModified="2019-06-01T18:51:51-0500"
+		dateModified="2019-06-10T02:50:31-0500"
 	>
 		<core:child page="changelog" />
+		<core:child book="/task/bom" page="/" />
 		<core:child book="/task/all" page="/" />
 		<core:child book="/task/model" page="/" />
 		<core:child book="/task/renderer/html" page="/" />
@@ -67,6 +68,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		</section:nav>
 		<section:section label="Modules">
 			<ul>
+				<li><core:link book="/task/bom" page="/" /></li>
 				<li><core:link book="/task/all" page="/" /></li>
 				<li><core:link book="/task/model" page="/" /></li>
 				<li><core:link book="/task/renderer/html" page="/" /></li>
