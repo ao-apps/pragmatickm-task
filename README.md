@@ -27,6 +27,7 @@ Aggregator POM for tasks nested within [SemanticCMS](https://github.com/aoindust
 * [GitHub](https://github.com/aoindustries/pragmatickm-task)
 
 ## Modules
+* [PragmaticKM Task BOM](https://github.com/aoindustries/pragmatickm-task-bom)
 * [PragmaticKM Task All](https://github.com/aoindustries/pragmatickm-task-all)
 * [PragmaticKM Task Model](https://github.com/aoindustries/pragmatickm-task-model)
 * [PragmaticKM Task Servlet](https://github.com/aoindustries/pragmatickm-task-servlet)
