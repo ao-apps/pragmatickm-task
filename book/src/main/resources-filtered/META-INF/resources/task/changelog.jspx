@@ -51,7 +51,16 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated version of <core:link book="/task/bom" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/task/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/task/model" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/task/servlet" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/task/taglib" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/task/view" page="/index.jspx" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
