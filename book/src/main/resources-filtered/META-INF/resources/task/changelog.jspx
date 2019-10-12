@@ -36,7 +36,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T22:08:34-0500"
-		dateModified="2019-06-24T02:14:27-0500"
+		dateModified="2019-10-12T09:18:36-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-task:pom.version}" />
@@ -51,17 +51,26 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			>
-				<ul>
-					<li>Updated version of <core:link book="/task/bom" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/model" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/servlet" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/taglib" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/view" page="/index.jspx" />.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.6.0"
+			datePublished="2019-10-12T09:18:36-0500"
+			groupId="@{documented.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{documented.scm.url}"
+		>
+			<ul>
+				<li>Updated version of <core:link book="/task/bom" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/task/all" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/task/model" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/task/servlet" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/task/taglib" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/task/view" page="/index.jspx" />.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
