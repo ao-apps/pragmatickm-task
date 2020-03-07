@@ -39,9 +39,9 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 
 	<scm>
 		<!-- Can't inherit due to multi-module -->
-		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
-		<url>https://github.com/aoindustries/${project.artifactId}</url>
+		<connection>scm:git:git://github.com/aoindustries/pragmatickm-task.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/pragmatickm-task.git</developerConnection>
+		<url>https://github.com/aoindustries/pragmatickm-task</url>
 		<tag>HEAD</tag>
 	</scm>
 
