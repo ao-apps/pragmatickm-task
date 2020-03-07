@@ -37,7 +37,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T22:08:34-0500"
-		dateModified="2020-02-26T13:25:49-0600"
+		dateModified="2020-03-07T06:01:29-0600"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-task:pom.version}" />
@@ -49,11 +49,15 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			<changelog:release
 				projectName="@{documented.name}"
 				version="#{version}"
-				groupId="@{documented.groupId}"
+				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
-				scmUrl="@{documented.scm.url}"
+				scmUrl="@{project.scm.url}"
 			>
 				<ul>
+					<li>
+						Reduced use of property substitutions in <code>pom.xml</code>.
+						This is to help 3rd-party parsers that fail to perform full Maven-compatible substitutions.
+					</li>
 					<li>Updated version of <core:link book="/task/bom" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/task/all" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/task/model" page="/index.jspx" />.</li>
@@ -69,9 +73,9 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.6.0"
 			datePublished="2019-10-12T09:18:36-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated version of <core:link book="/task/bom" page="/index.jspx" />.</li>
@@ -87,9 +91,9 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.5.1"
 			datePublished="2019-06-24T02:14:27-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>New project <core:link book="/task/bom" page="/index.jspx" /> for managed dependencies.</li>
@@ -100,9 +104,9 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.5.0"
 			datePublished="2019-04-22T16:27:29-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated version of <core:link book="/parent" page="/index.jspx" />.</li>
@@ -113,9 +117,9 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.4.4"
 			datePublished="2017-07-27T01:34:46-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>License changed to LGPL v3.</li>
@@ -127,10 +131,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.4.3"
 			datePublished="2017-07-20T19:05:45-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated dependencies.</li>
@@ -141,10 +145,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.4.2"
 			datePublished="2016-11-16T22:32:17-0600"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
@@ -158,10 +162,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.4.1"
 			datePublished="2016-10-20T20:05:49-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -173,10 +177,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.4.0"
 			datePublished="2016-10-05T00:00:01-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -187,10 +191,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.3"
 			datePublished="2016-09-11T17:35:33-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Use dependencyManagement instead of dependency for junit.</li>
@@ -202,10 +206,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.2"
 			datePublished="2016-09-03T11:31:19-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Using correct java.net Maven repository.</li>
@@ -217,10 +221,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.1"
 			datePublished="2016-08-31T03:12:14-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Added modules.</li>
@@ -232,10 +236,10 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 			projectName="@{documented.name}"
 			version="1.0"
 			datePublished="2016-08-30T18:03:22-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			repository="https://aorepo.org/maven2/"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Added modules.</li>
