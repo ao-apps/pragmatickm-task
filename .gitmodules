@@ -1,21 +1,28 @@
 [submodule "all"]
 	path = all
 	url = git@github.com:aoindustries/pragmatickm-task-all.git
+	branch = .
 [submodule "model"]
 	path = model
 	url = git@github.com:aoindustries/pragmatickm-task-model.git
+	branch = .
 [submodule "servlet"]
 	path = servlet
 	url = git@github.com:aoindustries/pragmatickm-task-servlet.git
+	branch = .
 [submodule "style"]
 	path = style
 	url = git@github.com:aoindustries/pragmatickm-task-style.git
+	branch = .
 [submodule "taglib"]
 	path = taglib
 	url = git@github.com:aoindustries/pragmatickm-task-taglib.git
+	branch = .
 [submodule "view"]
 	path = view
 	url = git@github.com:aoindustries/pragmatickm-task-view.git
+	branch = .
 [submodule "bom"]
 	path = bom
 	url = git@aoindustries.github.com:aoindustries/pragmatickm-task-bom.git
+	branch = .
