@@ -54,6 +54,11 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<tag>HEAD</tag>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/pragmatickm-task/issues</url>
+	</issueManagement>
+
 	<dependencyManagement>
 		<dependencies>
 			<!-- Java EE -->
