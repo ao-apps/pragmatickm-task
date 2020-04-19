@@ -39,7 +39,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<documented.shortTitle>Task</documented.shortTitle>
 		<documented.description>Aggregator POM for tasks nested within SemanticCMS pages and elements.</documented.description>
 
-		<description.html><![CDATA[Documentation for <a target="_top" href="${project.url}">${documented.name}</a> in <a target="_top" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
+		<description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
 	</properties>
 
 	<name>PragmaticKM Task² Book</name>
