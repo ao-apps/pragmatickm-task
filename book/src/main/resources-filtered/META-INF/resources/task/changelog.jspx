@@ -37,7 +37,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T22:08:34-0500"
-		dateModified="2020-11-18T22:36:47-06:00"
+		dateModified="2020-11-28T21:41:37-06:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-task:pom.version}" />
@@ -54,13 +54,25 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 				scmUrl="@{project.scm.url}"
 			>
 				<ul>
-					<li>Updated version of <core:link book="/task/bom" page="/" />.</li>
-					<li>Updated version of <core:link book="/task/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/task/taglib" page="/" />.</li>
 					<li>New module <core:link book="/task/renderer/html" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.8.0"
+			datePublished="2020-11-28T21:41:37-06:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Updated version of <core:link book="/task/bom" page="/" />.</li>
+				<li>Updated version of <core:link book="/task/all" page="/" />.</li>
+				<li>Updated version of <core:link book="/task/taglib" page="/" />.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
