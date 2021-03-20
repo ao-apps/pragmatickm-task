@@ -29,7 +29,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.8.1</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.8.1-POST-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM Task</name>
@@ -64,7 +64,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/pragmatickm-task.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/pragmatickm-task.git</developerConnection>
 		<url>https://github.com/aoindustries/pragmatickm-task</url>
-		<tag>pragmatickm-task-1.8.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
