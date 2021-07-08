@@ -1,22 +1,10 @@
 # [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [PragmaticKM](https://github.com/aoindustries/pragmatickm) / [Task](https://github.com/aoindustries/pragmatickm-task)
-<p>
-	<a href="https://aoindustries.com/life-cycle#project-current-stable">
-		<img src="https://pragmatickm.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
-	</a>
-	<a href="https://aoindustries.com/life-cycle#management-production">
-		<img src="https://pragmatickm.com/ao-badges/management-production.svg" alt="management: production" />
-	</a>
-	<a href="https://aoindustries.com/life-cycle#packaging-active">
-		<img src="https://pragmatickm.com/ao-badges/packaging-active.svg" alt="packaging: active" />
-	</a>
-	<br />
-	<a href="http://semver.org/spec/v2.0.0.html">
-		<img src="https://pragmatickm.com/ao-badges/semver-2.0.0.svg" alt="semantic versioning: 2.0.0" />
-	</a>
-	<a href="https://www.gnu.org/licenses/lgpl-3.0">
-		<img src="https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg" alt="license: LGPL v3" />
-	</a>
-</p>
+
+[![project: current stable](https://pragmatickm.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
+[![management: production](https://pragmatickm.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
+[![packaging: active](https://pragmatickm.com/ao-badges/packaging-active.svg)](https://aoindustries.com/life-cycle#packaging-active)  
+[![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
+[![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 Aggregator POM for tasks nested within [SemanticCMS](https://github.com/aoindustries/semanticcms) pages and elements.
 
