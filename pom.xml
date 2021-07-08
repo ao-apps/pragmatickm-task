@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-task - Aggregator POM for tasks nested within SemanticCMS pages and elements.
-Copyright (C) 2016, 2017, 2018, 2019  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2021  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -71,6 +71,21 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<system>GitHub Issues</system>
 		<url>https://github.com/aoindustries/pragmatickm-task/issues</url>
 	</issueManagement>
+
+	<repositories>
+		<!-- Repository required here, too, so can find parent -->
+		<repository>
+			<id>sonatype-nexus-snapshots</id>
+			<name>Sonatype Nexus Snapshots</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<modules>
 		<module>book</module>
