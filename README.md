@@ -7,6 +7,7 @@
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 [![Build](https://github.com/aoindustries/pragmatickm-task/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/pragmatickm-task/actions?query=workflow%3ABuild)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task)
 
 Aggregator POM for tasks nested within [SemanticCMS](https://github.com/aoindustries/semanticcms) pages and elements.
 
