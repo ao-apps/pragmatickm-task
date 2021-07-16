@@ -8,6 +8,11 @@
 
 [![Build](https://github.com/aoindustries/pragmatickm-task/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/pragmatickm-task/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-task)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-task&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.pragmatickm%3Apragmatickm-task)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-task&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-task&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-task&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-task&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-task&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-task&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-task&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-task&metric=Maintainability)
 
 Aggregator POM for tasks nested within [SemanticCMS](https://github.com/aoindustries/semanticcms) pages and elements.
 
