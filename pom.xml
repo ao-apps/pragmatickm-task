@@ -35,7 +35,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 	<properties>
 		<!-- SonarQube -->
 		<sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
-		<sonar.organization>aoindustries</sonar.organization>
+		<sonar.organization>ao-apps</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
@@ -68,20 +68,20 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/pragmatickm-task.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/pragmatickm-task.git</developerConnection>
-		<url>https://github.com/aoindustries/pragmatickm-task</url>
+		<connection>scm:git:git://github.com/ao-apps/pragmatickm-task.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/pragmatickm-task.git</developerConnection>
+		<url>https://github.com/ao-apps/pragmatickm-task</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/pragmatickm-task/issues</url>
+		<url>https://github.com/ao-apps/pragmatickm-task/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/pragmatickm-task/actions</url>
+		<url>https://github.com/ao-apps/pragmatickm-task/actions</url>
 	</ciManagement>
 
 	<repositories>
