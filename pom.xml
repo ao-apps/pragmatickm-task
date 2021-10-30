@@ -29,7 +29,7 @@ along with pragmatickm-task.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.9.1-POST-SNAPSHOT</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.9.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
