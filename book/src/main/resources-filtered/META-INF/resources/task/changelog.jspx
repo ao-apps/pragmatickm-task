@@ -47,7 +47,15 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
         artifactId="@{documented.artifactId}"
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
-      />
+      >
+        <!--
+          TODO: Role-based task assignments, such as "accounting", "billing", "distribution", "infrastructure", "management", "monitoring", ...
+          Then, can have a more centralized configuration of specifically who is handling this role.
+          This would make it easier to reconfiguration who is performing which tasks,
+          since currently each task has to be set individually.
+          This would also tie into the idea of rotating task assignments.
+        -->
+      </changelog:release>
     </c:if>
 
     <changelog:release
