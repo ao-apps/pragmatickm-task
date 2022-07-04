@@ -39,7 +39,7 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
-  <name>PragmaticKM Task²</name>
+  <name>PragmaticKM Task</name>
   <url>https://pragmatickm.com/task/</url>
   <description>Aggregator POM for tasks nested within SemanticCMS pages and elements.</description>
   <inceptionYear>2016</inceptionYear>
