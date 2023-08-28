@@ -32,9 +32,6 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.9.3-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>PragmaticKM Task</name>
   <url>https://pragmatickm.com/task/</url>
   <description>Aggregator POM for tasks nested within SemanticCMS pages and elements.</description>
