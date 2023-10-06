@@ -37,7 +37,7 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2017-07-25T22:08:34-05:00"
-    dateModified="2022-05-15T22:19:56-05:00"
+    dateModified="2023-10-06T06:30:52Z"
   >
     <c:set var="latestRelease" value="1.9.3" />
     <c:if test="${
@@ -62,6 +62,7 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
         -->
         <ul>
           <li>New module <core:link book="/task/renderer/html" page="/" />.</li>
+          <li><code>ElementTag.evaluateAttributes(…)</code> no longer throws <code>IOException</code>.</li>
         </ul>
       </changelog:release>
     </c:if>
