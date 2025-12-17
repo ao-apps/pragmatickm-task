@@ -25,11 +25,11 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId><version>1.19.0-SNAPSHOT</version>
+    <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId><version>2.0.0-SNAPSHOT</version>
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>1.10.0-SNAPSHOT</version>
+  <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task</artifactId><version>2.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -79,7 +79,7 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
 
   <ciManagement>
     <system>Jenkins</system>
-    <url>https://jenkins.aoindustries.com/job/ao/job/pragmatickm-1.x/job/task/job/index/</url>
+    <url>https://jenkins.aoindustries.com/job/ao/job/pragmatickm-2.x/job/task/job/index/</url>
   </ciManagement>
   <!-- Only one allowed in POM:
   <ciManagement>
