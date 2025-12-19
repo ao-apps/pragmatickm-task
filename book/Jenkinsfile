@@ -28,7 +28,7 @@ def upstreamProjects = [
   '../parent', // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId>
 
   // Direct
-  '../../oss/badges-1.x', // <groupId>com.aoapps</groupId><artifactId>ao-badges</artifactId>
+  '../../oss/badges', // <groupId>com.aoapps</groupId><artifactId>ao-badges</artifactId>
   '../../oss/taglib-javaee', // <groupId>com.aoapps</groupId><artifactId>ao-taglib</artifactId>
   '../../semanticcms-2.x/changelog-taglib', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId>
   '../../semanticcms-2.x/core/taglib', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId>
