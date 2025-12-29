@@ -37,7 +37,7 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2017-07-25T22:08:34-05:00"
-    dateModified="2025-07-02T23:05:45Z"
+    dateModified="2025-12-26T03:55:26Z"
   >
     <c:set var="latestRelease" value="1.9.3" />
     <c:if test="${
@@ -60,6 +60,7 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
           This would also tie into the idea of rotating task assignments.
         -->
         <ul>
+          <li>Minimum Java version changed from 11 to 17.</li>
           <li>New module <core:link book="/task/renderer/html" page="/" />.</li>
           <li><code>ElementTag.evaluateAttributes(…)</code> no longer throws <code>IOException</code>.</li>
         </ul>
