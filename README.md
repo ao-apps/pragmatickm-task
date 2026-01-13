@@ -1,7 +1,7 @@
 # [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [PragmaticKM](https://github.com/ao-apps/pragmatickm) / [Task](https://github.com/ao-apps/pragmatickm-task)
 
-[![project: current stable](https://pragmatickm.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
-[![management: production](https://pragmatickm.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
+[![project: old stable](https://pragmatickm.com/ao-badges/project-old-stable.svg)](https://aoindustries.com/life-cycle#project-old-stable)
+[![management: migration](https://pragmatickm.com/ao-badges/management-migration.svg)](https://aoindustries.com/life-cycle#management-migration)
 [![packaging: active](https://pragmatickm.com/ao-badges/packaging-active.svg)](https://aoindustries.com/life-cycle#packaging-active)  
 [![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
