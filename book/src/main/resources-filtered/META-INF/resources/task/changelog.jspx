@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-task - Aggregator POM for tasks nested within SemanticCMS pages and elements.
-Copyright (C) 2017, 2019, 2020, 2021, 2022, 2023, 2025  AO Industries, Inc.
+Copyright (C) 2017, 2019, 2020, 2021, 2022, 2023, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -37,9 +37,9 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2017-07-25T22:08:34-05:00"
-    dateModified="2025-07-02T23:05:45Z"
+    dateModified="2026-02-04T11:47:03Z"
   >
-    <c:set var="latestRelease" value="1.9.3" />
+    <c:set var="latestRelease" value="1.19.0" />
     <c:if test="${
       fn:endsWith('@{project.version}', '-SNAPSHOT')
       and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')
@@ -59,11 +59,21 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
           since currently each task has to be set individually.
           This would also tie into the idea of rotating task assignments.
         -->
-        <ul>
-          <li><code>ElementTag.evaluateAttributes(…)</code> no longer throws <code>IOException</code>.</li>
-        </ul>
       </changelog:release>
     </c:if>
+
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.19.0"
+      datePublished="2026-02-04T11:47:03Z"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li><code>ElementTag.evaluateAttributes(…)</code> no longer throws <code>IOException</code>.</li>
+      </ul>
+    </changelog:release>
 
     <changelog:release
       projectName="@{documented.name}"
