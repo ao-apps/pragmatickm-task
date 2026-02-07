@@ -37,7 +37,7 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2017-07-25T22:08:34-05:00"
-    dateModified="2026-02-04T22:50:50Z"
+    dateModified="2026-02-07T17:31:54Z"
   >
     <c:set var="latestRelease" value="1.19.0" />
     <c:if test="${
@@ -63,6 +63,11 @@ along with pragmatickm-task.  If not, see <https://www.gnu.org/licenses/>.
           <li>Minimum Java version changed from 11 to 17.</li>
           <li>Updated to <ao:a href="https://jakarta.ee/specifications/webprofile/10/">Jakarta EE Web Profile 10</ao:a> (Servlet 6.0, JSP 3.1, EL 5.0, and JSTL 3.0).</li>
           <li>Users may now be any value instead of a hard-coded enumeration.</li>
+          <li>
+            Converted from <code><ao:a href="https://oss.aoapps.com/lang/apidocs/com.aoapps.lang/com/aoapps/lang/util/UnmodifiableCalendar.html">UnmodifiableCalendar</ao:a></code> to
+            <code><ao:a rel="nofollow" href="@{documented.javadoc.link.javase}java.base/java/time/LocalDate.html">LocalDate</ao:a></code>
+            (a standard part of Java SE 8 and above).
+          </li>
           <li>New module <core:link book="/task/renderer/html" page="/" />.</li>
         </ul>
       </changelog:release>
